@@ -1,0 +1,178 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image:url('new.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+/*.image-container{
+	width: 60%;
+	margin: auto;
+	overflow: hidden;
+	
+	
+}
+.image-slider{
+	display: flex;
+	width: 950px;
+	height: 540px;
+
+}*/
+
+
+
+.thumbnail img{
+	height: 50px;
+	width :100px;
+	border:3px solid black;
+	padding:2px;
+	overflow: hidden;
+	border-spacing: 75px;
+
+
+}
+
+.thumbnail img:hover{
+	border: 3px solid blue;
+}
+
+.preview{
+	border: 3px solid pink;
+	overflow: hidden;
+	width: 800px;
+	height: 400px;
+	 margin: auto;
+}
+.preview img{
+	width:800px;
+	height: 400px;
+   
+
+}
+
+.header{
+	background-color: rgb(100,100,100);
+	height: 50px;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	
+}
+.header a{
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 13px 12px;
+	font-size:18px;
+	text-decoration:none;
+	margin-right: 15px;
+
+
+
+}
+.header a:hover{
+	background-color: green;
+	color: black;
+
+
+}
+.about{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	padding: 200px 180px;
+	overflow-x:hidden;
+}
+
+.counters{
+	background-color:white;
+	box-sizing: border-box;
+	color: rgb(100 50 100);
+	background-attachment: fixed;
+	overflow-x: hidden;
+	padding-left: 140px;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	font-weight: bold;
+
+}
+
+.fillform{
+	color: white;
+	text-align: center;
+	padding: 40px 45px;
+	overflow-x:hidden;
+	margin-bottom: 30px;
+}
+
+.footer1{
+	background-color: black;
+	padding:25px 20px;
+	font-size: 20px;
+	color: white;
+	opacity: 0.9;
+	overflow-x: hidden;
+	clear: both;
+}
+.lastfooter{
+	background-color: black;
+	color: pink;
+	text-align: right;
+	padding: 10px 8px;
+	opacity: 0.9;
+	overflow-x:hidden;
+}
+
+.up{
+	width: 50px;
+	height: 50px;
+	background-color:transparent;
+	text-decoration: none;
+	border-radius: 50%;
+	text-align: center;
+	  /*doubt*/
+
+
+}
+#scrollup{
+	float: right;
+	
+}
+
+.icon{ 
+	background-color: black;
+	padding: 9px 7px;
+	font-size: 33px;
+	overflow-x: hidden;
+
+
+}
+/*.icon a{
+	background-color: white;
+	top: 0;
+	right: 0px;
+	bottom: 0;
+	left: 0px;
+	margin: 6px 6px;
+	border-radius:50%
+	z-index: -1;
+	transform: scale(0);
+	transition: 0.50;
+
+}
+.icon a:hover{
+	transform: scale(1);
+	color: black;
+	background-color: pink;
+}*/
+
